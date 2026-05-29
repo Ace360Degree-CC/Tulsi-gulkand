@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { ComingSoonPage } from "./coming-soon";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { WhatsAppFloat } from "@/components/WhatsAppFloat";
@@ -19,7 +20,7 @@ import appBakery from "@/assets/app-bakery.jpg";
 import aboutImg from "@/assets/about-ingredients.jpg";
 
 export const Route = createFileRoute("/")({
-  component: Home,
+  component: ComingSoonPage,
   head: () => ({
     meta: [
       { title: "Tulsi Gulkand | Premium Gulkand Manufacturer in Pushkar Rajasthan" },

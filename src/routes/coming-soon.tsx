@@ -60,7 +60,7 @@ function PetalField() {
   );
 }
 
-function ComingSoonPage() {
+export function ComingSoonPage() {
   return (
     <main className="relative min-h-screen bg-hero-gradient overflow-hidden">
       <style>{`
